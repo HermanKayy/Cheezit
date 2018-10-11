@@ -8,8 +8,8 @@
 
 import Foundation
 
-class FatalErrorController {
-    static func fkMyAppUpFam() {
+public class FatalErrorController {
+    public static func fkMyAppUpFam() {
         fatalError()
     }
 }
