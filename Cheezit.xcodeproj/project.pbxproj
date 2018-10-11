@@ -12,6 +12,7 @@
 		466A8172216F18AB00ACB12A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466A8170216F18AB00ACB12A /* Main.storyboard */; };
 		466A8174216F18AC00ACB12A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466A8173216F18AC00ACB12A /* Assets.xcassets */; };
 		466A8177216F18AC00ACB12A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466A8175216F18AC00ACB12A /* LaunchScreen.storyboard */; };
+		466A817F216F284D00ACB12A /* FatalBoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A817E216F284D00ACB12A /* FatalBoi.swift */; };
 		AA3B3E94FBBBC494FA4D93A4 /* Pods_Cheezit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E1D063AFBA89AE0CAC8DF94 /* Pods_Cheezit.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		466A8173216F18AC00ACB12A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		466A8176216F18AC00ACB12A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		466A8178216F18AC00ACB12A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466A817E216F284D00ACB12A /* FatalBoi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatalBoi.swift; sourceTree = "<group>"; };
 		EB18F7DB99BAFDD769CD224C /* Pods-Cheezit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cheezit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cheezit/Pods-Cheezit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +65,7 @@
 			children = (
 				466A816C216F18AB00ACB12A /* AppDelegate.swift */,
 				466A816E216F18AB00ACB12A /* ViewController.swift */,
+				466A817E216F284D00ACB12A /* FatalBoi.swift */,
 				466A8170216F18AB00ACB12A /* Main.storyboard */,
 				466A8173216F18AC00ACB12A /* Assets.xcassets */,
 				466A8175216F18AC00ACB12A /* LaunchScreen.storyboard */,
@@ -99,6 +102,7 @@
 				466A8165216F18AB00ACB12A /* Sources */,
 				466A8166216F18AB00ACB12A /* Frameworks */,
 				466A8167216F18AB00ACB12A /* Resources */,
+				149A4A3AB88FC3F9E19F4179 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,6 +160,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		149A4A3AB88FC3F9E19F4179 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Cheezit/Pods-Cheezit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cheezit/Cheezit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cheezit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cheezit/Pods-Cheezit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C0B18FA143FF993F5B4352BF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -186,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				466A816F216F18AB00ACB12A /* ViewController.swift in Sources */,
+				466A817F216F284D00ACB12A /* FatalBoi.swift in Sources */,
 				466A816D216F18AB00ACB12A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

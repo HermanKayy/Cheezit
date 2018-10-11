@@ -7,33 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EFDC7D6F2D43B2F51FA916831FAECC5 /* Pods-Cheezit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3319932D66E1216A813F49D95B624D4 /* Pods-Cheezit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		403201C6F8D03E12257F509E7C924420 /* Pods-Cheezit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F22DCA23444D8323A0FD46580F7DD1E7 /* Pods-Cheezit-dummy.m */; };
-		EA7037035769EB656B12A60F604D4B3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		0DCFA787DD8EC571180A89F0286989D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7A67B9E4C760F27D0A56A3786C1D2E /* AppDelegate.swift */; };
+		1AA8C86BA5BF02526190927D51B230CD /* Cheezit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDAC9013296CE7101E4B5F3A4130E644 /* Cheezit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B3A10179BBA4D1BE5AE8C690151B2E7 /* Cheezit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FFAECCA015AD05BC0ABD463FDB5D10 /* Cheezit-dummy.m */; };
+		62D121CA7E1E917A6BC96D1D331EF1E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E8698E3747DA5D10268F024E8CB5EA /* ViewController.swift */; };
+		65F6B4BC111FF708875F234FF2C4D794 /* Pods-Cheezit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F22DCA23444D8323A0FD46580F7DD1E7 /* Pods-Cheezit-dummy.m */; };
+		A5E8B0B50A7513E6E78B4613188E5E6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		E1109D2DD70CA918D8D42128834DCA4B /* Pods-Cheezit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3319932D66E1216A813F49D95B624D4 /* Pods-Cheezit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E475154F9D019153796908C8E4F00263 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		CA6F935637E3F9FFD6338D957D4E33FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7470E98FFC41C4BE479CDC59D94DE706;
+			remoteInfo = Cheezit;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		03A1B4CA199E59DBF874820A95AD3B14 /* Cheezit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cheezit.modulemap; sourceTree = "<group>"; };
 		0F960A49EFAF0CEA1C35A93FB3676081 /* Pods-Cheezit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cheezit-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3485AB8A92D74CAA40DCA1B0C71D31A2 /* Pods-Cheezit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Cheezit.modulemap"; sourceTree = "<group>"; };
 		37BCF86E696620E55EBD942EC67DA406 /* Pods-Cheezit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cheezit-resources.sh"; sourceTree = "<group>"; };
-		3FB8A4515D7F89CDE05EC02B0C1E46D7 /* Pods_Cheezit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Cheezit.framework; path = "Pods-Cheezit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49FFAECCA015AD05BC0ABD463FDB5D10 /* Cheezit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cheezit-dummy.m"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5E0575338B68DA6EA21BC370E7EB527E /* Pods-Cheezit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cheezit.debug.xcconfig"; sourceTree = "<group>"; };
+		60E8698E3747DA5D10268F024E8CB5EA /* ViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Cheezit/ViewController.swift; sourceTree = "<group>"; };
 		6AF2F5AAD5E18C7B8731EA454EDA3CA2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C7A67B9E4C760F27D0A56A3786C1D2E /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Cheezit/AppDelegate.swift; sourceTree = "<group>"; };
+		6ED761E39CB6D035100475C5BE394230 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A5A10114B7F27207F932A42C4DE7F17 /* Pods-Cheezit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cheezit-acknowledgements.plist"; sourceTree = "<group>"; };
+		84EABE3788746FB7F890735FE766F3DF /* Cheezit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cheezit.framework; path = Cheezit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91933F7FC0A229C61CE2939EA2C62B27 /* Cheezit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cheezit-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		955BD2D5678CE34CA2C15439D95C8D59 /* Pods-Cheezit-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cheezit-frameworks.sh"; sourceTree = "<group>"; };
+		BAC12129577CED024E1A90B48107D2FE /* Pods_Cheezit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Cheezit.framework; path = "Pods-Cheezit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF41BEC9D8DDC19AAD31519B73B972A7 /* Pods-Cheezit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cheezit.release.xcconfig"; sourceTree = "<group>"; };
 		D3319932D66E1216A813F49D95B624D4 /* Pods-Cheezit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cheezit-umbrella.h"; sourceTree = "<group>"; };
+		EB2061E1071807E20E3EC17F5872879F /* Cheezit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cheezit.xcconfig; sourceTree = "<group>"; };
+		EDAC9013296CE7101E4B5F3A4130E644 /* Cheezit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cheezit-umbrella.h"; sourceTree = "<group>"; };
 		F22DCA23444D8323A0FD46580F7DD1E7 /* Pods-Cheezit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cheezit-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		04C75CE94F9B62D308E531DC6DE14E25 /* Frameworks */ = {
+		12863B681C4518EECBE8DCD599804143 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA7037035769EB656B12A60F604D4B3B /* Foundation.framework in Frameworks */,
+				E475154F9D019153796908C8E4F00263 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91B0E25AFE61455AB91FA1C65DCFEC94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E8B0B50A7513E6E78B4613188E5E6F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,22 +88,35 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		5E990484EDE6BAAA7CA0758BF1EF9AE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84EABE3788746FB7F890735FE766F3DF /* Cheezit.framework */,
+				BAC12129577CED024E1A90B48107D2FE /* Pods_Cheezit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				8DB782E3F0275FAAB6FCE1EE0108351A /* Products */,
+				D1CE6656CA75A5E1CDE97B1AE9437FAA /* Pods */,
+				5E990484EDE6BAAA7CA0758BF1EF9AE1 /* Products */,
 				52D4109AE4C857A19E486EEF1032251D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8DB782E3F0275FAAB6FCE1EE0108351A /* Products */ = {
+		BAD7EECFD2F61DB33C8D333FE869A1AA /* Cheezit */ = {
 			isa = PBXGroup;
 			children = (
-				3FB8A4515D7F89CDE05EC02B0C1E46D7 /* Pods_Cheezit.framework */,
+				6C7A67B9E4C760F27D0A56A3786C1D2E /* AppDelegate.swift */,
+				60E8698E3747DA5D10268F024E8CB5EA /* ViewController.swift */,
+				CD114D9F804EFFA2ED738AF7D51FC803 /* Support Files */,
 			);
-			name = Products;
+			name = Cheezit;
+			path = Cheezit;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -100,36 +145,85 @@
 			path = "Target Support Files/Pods-Cheezit";
 			sourceTree = "<group>";
 		};
+		CD114D9F804EFFA2ED738AF7D51FC803 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				03A1B4CA199E59DBF874820A95AD3B14 /* Cheezit.modulemap */,
+				EB2061E1071807E20E3EC17F5872879F /* Cheezit.xcconfig */,
+				49FFAECCA015AD05BC0ABD463FDB5D10 /* Cheezit-dummy.m */,
+				91933F7FC0A229C61CE2939EA2C62B27 /* Cheezit-prefix.pch */,
+				EDAC9013296CE7101E4B5F3A4130E644 /* Cheezit-umbrella.h */,
+				6ED761E39CB6D035100475C5BE394230 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Cheezit";
+			sourceTree = "<group>";
+		};
+		D1CE6656CA75A5E1CDE97B1AE9437FAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAD7EECFD2F61DB33C8D333FE869A1AA /* Cheezit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2876C1EB753E3AAE52135BBD0E489F9B /* Headers */ = {
+		8499CBB4ECC956A1B6939A6CDDE980E7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EFDC7D6F2D43B2F51FA916831FAECC5 /* Pods-Cheezit-umbrella.h in Headers */,
+				E1109D2DD70CA918D8D42128834DCA4B /* Pods-Cheezit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B282E28F7156A2D54BCD8D28D112610A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA8C86BA5BF02526190927D51B230CD /* Cheezit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A4C087B773A2E0632A0B42EE89A1A5A1 /* Pods-Cheezit */ = {
+		7470E98FFC41C4BE479CDC59D94DE706 /* Cheezit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0764BFC75731E363D382AF11FD9CD944 /* Build configuration list for PBXNativeTarget "Pods-Cheezit" */;
+			buildConfigurationList = A49E738E96031B50C281B78828A649A0 /* Build configuration list for PBXNativeTarget "Cheezit" */;
 			buildPhases = (
-				2876C1EB753E3AAE52135BBD0E489F9B /* Headers */,
-				C7F63C1588B3E146565B326067B948E3 /* Sources */,
-				04C75CE94F9B62D308E531DC6DE14E25 /* Frameworks */,
-				1D21491C185A37501C34D39D669C4003 /* Resources */,
+				B282E28F7156A2D54BCD8D28D112610A /* Headers */,
+				44A797F2FD4F79F167E17759486C95FF /* Sources */,
+				12863B681C4518EECBE8DCD599804143 /* Frameworks */,
+				95B34EA150B4D2BA134419A759B56606 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = Cheezit;
+			productName = Cheezit;
+			productReference = 84EABE3788746FB7F890735FE766F3DF /* Cheezit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F3FE9D6BA26B66A23980813E17B788E3 /* Pods-Cheezit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB8F0F0F6089A38BA902560C4F516BA /* Build configuration list for PBXNativeTarget "Pods-Cheezit" */;
+			buildPhases = (
+				8499CBB4ECC956A1B6939A6CDDE980E7 /* Headers */,
+				F341FE09EBA1C68740C21368B4501A9D /* Sources */,
+				91B0E25AFE61455AB91FA1C65DCFEC94 /* Frameworks */,
+				CEDF0CD98DDB0E28271EB428E85C7B46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7D6A1BC7414A41AB96C942E228C32A7 /* PBXTargetDependency */,
+			);
 			name = "Pods-Cheezit";
 			productName = "Pods-Cheezit";
-			productReference = 3FB8A4515D7F89CDE05EC02B0C1E46D7 /* Pods_Cheezit.framework */;
+			productReference = BAC12129577CED024E1A90B48107D2FE /* Pods_Cheezit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -149,17 +243,25 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 8DB782E3F0275FAAB6FCE1EE0108351A /* Products */;
+			productRefGroup = 5E990484EDE6BAAA7CA0758BF1EF9AE1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A4C087B773A2E0632A0B42EE89A1A5A1 /* Pods-Cheezit */,
+				7470E98FFC41C4BE479CDC59D94DE706 /* Cheezit */,
+				F3FE9D6BA26B66A23980813E17B788E3 /* Pods-Cheezit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1D21491C185A37501C34D39D669C4003 /* Resources */ = {
+		95B34EA150B4D2BA134419A759B56606 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDF0CD98DDB0E28271EB428E85C7B46 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -169,22 +271,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C7F63C1588B3E146565B326067B948E3 /* Sources */ = {
+		44A797F2FD4F79F167E17759486C95FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				403201C6F8D03E12257F509E7C924420 /* Pods-Cheezit-dummy.m in Sources */,
+				0DCFA787DD8EC571180A89F0286989D3 /* AppDelegate.swift in Sources */,
+				1B3A10179BBA4D1BE5AE8C690151B2E7 /* Cheezit-dummy.m in Sources */,
+				62D121CA7E1E917A6BC96D1D331EF1E5 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F341FE09EBA1C68740C21368B4501A9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F6B4BC111FF708875F234FF2C4D794 /* Pods-Cheezit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		A7D6A1BC7414A41AB96C942E228C32A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cheezit;
+			target = 7470E98FFC41C4BE479CDC59D94DE706 /* Cheezit */;
+			targetProxy = CA6F935637E3F9FFD6338D957D4E33FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		3736481738B50860CA3D186E3992DCC4 /* Release */ = {
+		279857890AD16B049B2DE220213228A4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF41BEC9D8DDC19AAD31519B73B972A7 /* Pods-Cheezit.release.xcconfig */;
+			baseConfigurationReference = EB2061E1071807E20E3EC17F5872879F /* Cheezit.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -195,23 +315,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Cheezit/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Cheezit/Cheezit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cheezit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Cheezit/Pods-Cheezit.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/Cheezit/Cheezit.modulemap";
+				PRODUCT_MODULE_NAME = Cheezit;
+				PRODUCT_NAME = Cheezit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -342,7 +463,7 @@
 			};
 			name = Debug;
 		};
-		9B64B153EA755329FB3E22975593DDC2 /* Debug */ = {
+		C270AA010F3124C0103D86250D50D1A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5E0575338B68DA6EA21BC370E7EB527E /* Pods-Cheezit.debug.xcconfig */;
 			buildSettings = {
@@ -374,6 +495,86 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD44EBC40E1F242BDFFC4E968F53BB08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF41BEC9D8DDC19AAD31519B73B972A7 /* Pods-Cheezit.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cheezit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cheezit/Pods-Cheezit.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E273F7152625F65DCA1D02E0A0E9C03E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB2061E1071807E20E3EC17F5872879F /* Cheezit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cheezit/Cheezit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cheezit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Cheezit/Cheezit.modulemap";
+				PRODUCT_MODULE_NAME = Cheezit;
+				PRODUCT_NAME = Cheezit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -383,20 +584,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0764BFC75731E363D382AF11FD9CD944 /* Build configuration list for PBXNativeTarget "Pods-Cheezit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9B64B153EA755329FB3E22975593DDC2 /* Debug */,
-				3736481738B50860CA3D186E3992DCC4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85ED3013A635C27F8B7FAF51362B108C /* Debug */,
 				40B45BB3CF3EE4476259302A7FAAD78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FB8F0F0F6089A38BA902560C4F516BA /* Build configuration list for PBXNativeTarget "Pods-Cheezit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C270AA010F3124C0103D86250D50D1A6 /* Debug */,
+				DD44EBC40E1F242BDFFC4E968F53BB08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A49E738E96031B50C281B78828A649A0 /* Build configuration list for PBXNativeTarget "Cheezit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E273F7152625F65DCA1D02E0A0E9C03E /* Debug */,
+				279857890AD16B049B2DE220213228A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

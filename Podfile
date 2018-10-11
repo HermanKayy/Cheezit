@@ -6,5 +6,6 @@ target 'Cheezit' do
   use_frameworks!
 
   # Pods for Cheezit
+pod 'Cheezit'
 
 end

@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 663ebb075ed16474344a7a0eb92dfd4367605132
+PODS:
+  - Cheezit (1.0.0)
+
+DEPENDENCIES:
+  - Cheezit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Cheezit
+
+SPEC CHECKSUMS:
+  Cheezit: eae1bbdbde772a4a8d275071de0d920f84ef32b5
+
+PODFILE CHECKSUM: fe24e27a158f2459afd92d160d105f1a056ec54f
 
 COCOAPODS: 1.5.3

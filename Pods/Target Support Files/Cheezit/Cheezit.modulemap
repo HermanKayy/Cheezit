@@ -1,0 +1,6 @@
+framework module Cheezit {
+  umbrella header "Cheezit-umbrella.h"
+
+  export *
+  module * { export * }
+}
