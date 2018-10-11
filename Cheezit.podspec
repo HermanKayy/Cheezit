@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 
   s.name         = "Cheezit"
-  s.version      = "1.1.0"
-  s.summary      = "1.1.0"
+  s.version      = "1.1.1"
+  s.summary      = "1.1.1"
   s.description  = "Internal library for Cheezit"
   s.platform     = :ios, "11.0"
   s.swift_version = '4.2'
